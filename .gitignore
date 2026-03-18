@@ -1,0 +1,54 @@
+# .gitignore для C++ проекта
+
+# Сборочные артефакты
+/build/
+/bin/
+/out/
+/dist/
+/cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Компилируемые файлы
+*.o
+*.obj
+*.lo
+*.so
+*.a
+*.lib
+*.dll
+*.exe
+*.out
+*.app
+
+# Логи и временные файлы
+*.log
+*.tmp
+*.temp
+*.swp
+*~
+
+# IDE / редакторы
+.vscode/
+.vs/
+.idea/
+*.sln
+*.vcxproj*
+*.user
+*.suo
+
+# ОС
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Отдельно: локальная собранная программа
+positioning.exe
+
+# Покрытие/отчёты
+coverage/
+*.gcda
+*.gcno
+*.gcov

@@ -1,0 +1,40 @@
+{
+  "mode": "direction",
+  "status": "ok",
+  "position": null,
+  "direction": {
+    "x": 0.8507608709886728,
+    "y": -0.4061572761252891,
+    "z": 0.33352991986489094
+  },
+  "azimuth_deg": -25.520030795583235,
+  "elevation_deg": 19.483167904147678,
+  "residual_error2": 8.916457164062561e-08,
+  "used_pairs": 6,
+  "rejected_pairs": 0,
+  "reliable": true,
+  "confidence": 0.9959365091717556,
+  "message": "near-field bearing",
+  "timestamp": 0.128,
+  "accepted": true,
+  "smoothed_azimuth_deg": -29.813451251048765,
+  "smoothed_elevation_deg": 18.912073471941806,
+  "azimuth_rate_deg_s": 36.12252787050352,
+  "elevation_rate_deg_s": 4.804881040193664,
+  "aggregated_confidence": 0.5977295686934441,
+  "tracking_message": "",
+  "environment": {
+    "temperature_c": 20.0,
+    "humidity_percent": 0.0,
+    "sound_speed_m_s": 343.42
+  },
+  "audio": {
+    "sample_rate": 192000,
+    "window_size": 12288,
+    "overlap": 0.5,
+    "frequency_band": [
+      100.0,
+      20000.0
+    ]
+  }
+}

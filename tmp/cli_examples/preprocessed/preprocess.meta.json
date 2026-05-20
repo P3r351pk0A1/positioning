@@ -1,0 +1,29 @@
+{
+  "input": "data\\synthetic\\side_looking_point_pulse.wav",
+  "sample_rate": 192000,
+  "window_size": 12288,
+  "overlap": 0.5,
+  "frequency_band": [
+    100.0,
+    20000.0
+  ],
+  "window_count": 2,
+  "windows": [
+    {
+      "path": "tmp\\cli_examples\\preprocessed\\window_0000.csv",
+      "timestamp": 0.0,
+      "mean_rms": 0.06898100975184909,
+      "mean_abs_correlation": 0.5871395828546956,
+      "informative": true,
+      "reason": ""
+    },
+    {
+      "path": "tmp\\cli_examples\\preprocessed\\window_0001.csv",
+      "timestamp": 0.032,
+      "mean_rms": 0.0,
+      "mean_abs_correlation": 0.0,
+      "informative": false,
+      "reason": "low_energy"
+    }
+  ]
+}

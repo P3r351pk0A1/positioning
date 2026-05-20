@@ -1,17 +1,33 @@
-# .gitignore для C++ проекта
+# .gitignore для Python проекта
 
 # Сборочные артефакты
 /build/
 /bin/
 /out/
 /dist/
+/data/
+/site/
 /cmake-build-*/
 CMakeFiles/
 CMakeCache.txt
 cmake_install.cmake
 Makefile
+*.egg-info/
 
-# Компилируемые файлы
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+env/
+
+# Компилируемые файлы и старые C++ артефакты
 *.o
 *.obj
 *.lo
@@ -44,8 +60,10 @@ Makefile
 Thumbs.db
 desktop.ini
 
-# Отдельно: локальная собранная программа
+# Локально собранные программы старого C++ прототипа
 positioning.exe
+validator.exe
+validator_using_main.exe
 
 # Покрытие/отчёты
 coverage/

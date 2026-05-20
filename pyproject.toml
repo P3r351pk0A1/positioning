@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "positioning"
+version = "0.1.0"
+description = "Python prototype for passive acoustic TDOA localization with a four-microphone array."
+requires-python = ">=3.10"
+dependencies = ["numpy>=2.0"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+docs = ["reportlab>=4.5"]
+ui = ["streamlit>=1.30", "plotly>=6.0"]
+
+[project.scripts]
+positioning = "positioning.cli:main"
+positioning-validate = "positioning.validation:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

@@ -1,0 +1,42 @@
+{
+  "array": {
+    "microphones": [
+      {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      {
+        "x": 0.0,
+        "y": 0.2,
+        "z": 0.0
+      },
+      {
+        "x": 0.0,
+        "y": 0.2,
+        "z": 0.2
+      },
+      {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.2
+      }
+    ]
+  },
+  "audio": {
+    "sample_rate": 192000,
+    "window_size": 8192,
+    "overlap": 0.5,
+    "frequency_band": [
+      100.0,
+      20000.0
+    ]
+  },
+  "environment": {
+    "temperature_c": 30.0,
+    "humidity_percent": 60.0
+  },
+  "localization": {
+    "mode": "position"
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "input": "data\\synthetic\\signal.csv",
+  "sample_rate": 48000,
+  "window_size": 2048,
+  "overlap": 0.5,
+  "frequency_band": [
+    100.0,
+    5000.0
+  ],
+  "window_count": 8,
+  "windows": [
+    {
+      "path": "data\\processed_csv\\window_0000.csv",
+      "timestamp": 0.0,
+      "mean_rms": 0.25697479669023027,
+      "mean_abs_correlation": 0.60040994059798,
+      "informative": true,
+      "reason": ""
+    },
+    {
+      "path": "data\\processed_csv\\window_0001.csv",
+      "timestamp": 0.021333333333333333,
+      "mean_rms": 0.3637474189264372,
+      "mean_abs_correlation": 0.6010970234892992,
+      "informative": true,
+      "reason": ""
+    },
+    {
+      "path": "data\\processed_csv\\window_0002.csv",
+      "timestamp": 0.042666666666666665,
+      "mean_rms": 0.43071557636702096,
+      "mean_abs_correlation": 0.601110788792209,
+      "informative": true,
+      "reason": ""
+    },
+    {
+      "path": "data\\processed_csv\\window_0003.csv",
+      "timestamp": 0.064,
+      "mean_rms": 0.4305088588610354,
+      "mean_abs_correlation": 0.6010988008660373,
+      "informative": true,
+      "reason": ""
+    },
+    {
+      "path": "data\\processed_csv\\window_0004.csv",
+      "timestamp": 0.08533333333333333,
+      "mean_rms": 0.43056219584829397,
+      "mean_abs_correlation": 0.6011062344997476,
+      "informative": true,
+      "reason": ""
+    },
+    {
+      "path": "data\\processed_csv\\window_0005.csv",
+      "timestamp": 0.10666666666666667,
+      "mean_rms": 0.4308115134844509,
+      "mean_abs_correlation": 0.6011036518998049,
+      "informative": true,
+      "reason": ""
+    },
+    {
+      "path": "data\\processed_csv\\window_0006.csv",
+      "timestamp": 0.128,
+      "mean_rms": 0.4309193569595682,
+      "mean_abs_correlation": 0.6011136584672402,
+      "informative": true,
+      "reason": ""
+    },
+    {
+      "path": "data\\processed_csv\\window_0007.csv",
+      "timestamp": 0.14933333333333335,
+      "mean_rms": 0.4310535645866374,
+      "mean_abs_correlation": 0.6011154982382709,
+      "informative": true,
+      "reason": ""
+    }
+  ]
+}

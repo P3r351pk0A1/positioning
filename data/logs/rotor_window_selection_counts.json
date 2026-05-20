@@ -1,0 +1,218 @@
+[
+  {
+    "window_size": 1024,
+    "mode": "trajectory",
+    "duration_ms": 5.333,
+    "all_windows": 2624,
+    "selected_windows": 60,
+    "first_ts": 0.386667,
+    "last_ts": 6.384
+  },
+  {
+    "window_size": 1024,
+    "mode": "first",
+    "duration_ms": 5.333,
+    "all_windows": 2624,
+    "selected_windows": 2250,
+    "first_ts": 0.386667,
+    "last_ts": 6.384
+  },
+  {
+    "window_size": 1536,
+    "mode": "trajectory",
+    "duration_ms": 8.0,
+    "all_windows": 1749,
+    "selected_windows": 60,
+    "first_ts": 0.384,
+    "last_ts": 6.384
+  },
+  {
+    "window_size": 1536,
+    "mode": "first",
+    "duration_ms": 8.0,
+    "all_windows": 1749,
+    "selected_windows": 1501,
+    "first_ts": 0.384,
+    "last_ts": 6.384
+  },
+  {
+    "window_size": 2048,
+    "mode": "trajectory",
+    "duration_ms": 10.667,
+    "all_windows": 1311,
+    "selected_windows": 60,
+    "first_ts": 0.384,
+    "last_ts": 6.378667
+  },
+  {
+    "window_size": 2048,
+    "mode": "first",
+    "duration_ms": 10.667,
+    "all_windows": 1311,
+    "selected_windows": 1125,
+    "first_ts": 0.384,
+    "last_ts": 6.378667
+  },
+  {
+    "window_size": 3072,
+    "mode": "trajectory",
+    "duration_ms": 16.0,
+    "all_windows": 874,
+    "selected_windows": 60,
+    "first_ts": 0.384,
+    "last_ts": 6.376
+  },
+  {
+    "window_size": 3072,
+    "mode": "first",
+    "duration_ms": 16.0,
+    "all_windows": 874,
+    "selected_windows": 750,
+    "first_ts": 0.384,
+    "last_ts": 6.376
+  },
+  {
+    "window_size": 4096,
+    "mode": "trajectory",
+    "duration_ms": 21.333,
+    "all_windows": 655,
+    "selected_windows": 60,
+    "first_ts": 0.373333,
+    "last_ts": 6.378667
+  },
+  {
+    "window_size": 4096,
+    "mode": "first",
+    "duration_ms": 21.333,
+    "all_windows": 655,
+    "selected_windows": 564,
+    "first_ts": 0.373333,
+    "last_ts": 6.378667
+  },
+  {
+    "window_size": 6144,
+    "mode": "trajectory",
+    "duration_ms": 32.0,
+    "all_windows": 436,
+    "selected_windows": 60,
+    "first_ts": 0.368,
+    "last_ts": 6.368
+  },
+  {
+    "window_size": 6144,
+    "mode": "first",
+    "duration_ms": 32.0,
+    "all_windows": 436,
+    "selected_windows": 376,
+    "first_ts": 0.368,
+    "last_ts": 6.368
+  },
+  {
+    "window_size": 8192,
+    "mode": "trajectory",
+    "duration_ms": 42.667,
+    "all_windows": 327,
+    "selected_windows": 60,
+    "first_ts": 0.362667,
+    "last_ts": 6.357333
+  },
+  {
+    "window_size": 8192,
+    "mode": "first",
+    "duration_ms": 42.667,
+    "all_windows": 327,
+    "selected_windows": 282,
+    "first_ts": 0.362667,
+    "last_ts": 6.357333
+  },
+  {
+    "window_size": 10240,
+    "mode": "trajectory",
+    "duration_ms": 53.333,
+    "all_windows": 261,
+    "selected_windows": 60,
+    "first_ts": 0.373333,
+    "last_ts": 6.346667
+  },
+  {
+    "window_size": 10240,
+    "mode": "first",
+    "duration_ms": 53.333,
+    "all_windows": 261,
+    "selected_windows": 225,
+    "first_ts": 0.373333,
+    "last_ts": 6.346667
+  },
+  {
+    "window_size": 12288,
+    "mode": "trajectory",
+    "duration_ms": 64.0,
+    "all_windows": 217,
+    "selected_windows": 60,
+    "first_ts": 0.352,
+    "last_ts": 6.368
+  },
+  {
+    "window_size": 12288,
+    "mode": "first",
+    "duration_ms": 64.0,
+    "all_windows": 217,
+    "selected_windows": 189,
+    "first_ts": 0.352,
+    "last_ts": 6.368
+  },
+  {
+    "window_size": 16384,
+    "mode": "trajectory",
+    "duration_ms": 85.333,
+    "all_windows": 163,
+    "selected_windows": 60,
+    "first_ts": 0.341333,
+    "last_ts": 6.357333
+  },
+  {
+    "window_size": 16384,
+    "mode": "first",
+    "duration_ms": 85.333,
+    "all_windows": 163,
+    "selected_windows": 142,
+    "first_ts": 0.341333,
+    "last_ts": 6.357333
+  },
+  {
+    "window_size": 24576,
+    "mode": "trajectory",
+    "duration_ms": 128.0,
+    "all_windows": 108,
+    "selected_windows": 60,
+    "first_ts": 0.32,
+    "last_ts": 6.336
+  },
+  {
+    "window_size": 24576,
+    "mode": "first",
+    "duration_ms": 128.0,
+    "all_windows": 108,
+    "selected_windows": 95,
+    "first_ts": 0.32,
+    "last_ts": 6.336
+  },
+  {
+    "window_size": 32768,
+    "mode": "trajectory",
+    "duration_ms": 170.667,
+    "all_windows": 81,
+    "selected_windows": 60,
+    "first_ts": 0.341333,
+    "last_ts": 6.314667
+  },
+  {
+    "window_size": 32768,
+    "mode": "first",
+    "duration_ms": 170.667,
+    "all_windows": 81,
+    "selected_windows": 71,
+    "first_ts": 0.341333,
+    "last_ts": 6.314667
+  }
+]

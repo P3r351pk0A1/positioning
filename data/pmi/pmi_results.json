@@ -1,0 +1,170 @@
+{
+  "summary": {
+    "passed": 15,
+    "total": 15,
+    "all_passed": true
+  },
+  "environment": {
+    "temperature_c": 20.0,
+    "humidity_percent": 0.0,
+    "sound_speed_m_s": 343.42
+  },
+  "audio": {
+    "sample_rate": 48000,
+    "window_size": 2048,
+    "overlap": 0.5,
+    "frequency_band": [
+      100.0,
+      5000.0
+    ]
+  },
+  "results": [
+    {
+      "number": 1,
+      "name": "Запуск программы",
+      "passed": true,
+      "details": "program entry scenario produced a valid JSON result",
+      "metrics": {
+        "status": "ok"
+      }
+    },
+    {
+      "number": 2,
+      "name": "Прием четырех каналов и метаданных",
+      "passed": true,
+      "details": "4-channel CSV and sidecar metadata were written and read",
+      "metrics": {
+        "samples": 2400
+      }
+    },
+    {
+      "number": 3,
+      "name": "Обработка файлового режима",
+      "passed": true,
+      "details": "CSV and WAV file modes were accepted",
+      "metrics": {
+        "csv_samples": 2400,
+        "wav_samples": 2400
+      }
+    },
+    {
+      "number": 4,
+      "name": "Учет температуры и влажности",
+      "passed": true,
+      "details": "sound speed changes with temperature and humidity",
+      "metrics": {
+        "base_speed": 343.42,
+        "warm_speed": 350.1
+      }
+    },
+    {
+      "number": 5,
+      "name": "Фильтрация сигнала с шумом",
+      "passed": true,
+      "details": "noisy signal window was filtered and marked informative",
+      "metrics": {
+        "mean_rms": 0.41100290868946904,
+        "mean_abs_correlation": 0.5330208426101962
+      }
+    },
+    {
+      "number": 6,
+      "name": "Оценка TDOA из аудио через GCC-PHAT",
+      "passed": true,
+      "details": "GCC-PHAT recovered TDOA delays from a synthetic four-channel pulse",
+      "metrics": {
+        "max_delay_error_s": 0.0,
+        "min_quality": 0.9969609696948202
+      }
+    },
+    {
+      "number": 7,
+      "name": "Корректность TDOA на синтетике",
+      "passed": true,
+      "details": "synthetic TDOA direction estimate matches the reference direction",
+      "metrics": {
+        "direction_error": -2.220446049250313e-16,
+        "used_pairs": 6
+      }
+    },
+    {
+      "number": 8,
+      "name": "Подавление отраженного пути",
+      "passed": true,
+      "details": "single reflected/false TDOA pair was rejected",
+      "metrics": {
+        "rejected_pairs": 1,
+        "direction_error": -2.220446049250313e-16
+      }
+    },
+    {
+      "number": 9,
+      "name": "Вычисление направления и координат",
+      "passed": true,
+      "details": "direction and allowed near-field 3D position modes computed successfully",
+      "metrics": {
+        "position_error_m": 8.425186292881708e-10,
+        "direction_error": 0.0
+      }
+    },
+    {
+      "number": 10,
+      "name": "JSON/CSV-выход и журнал",
+      "passed": true,
+      "details": "JSON result and CSV window log were written",
+      "metrics": {
+        "json_bytes": 970,
+        "csv_bytes": 1133
+      }
+    },
+    {
+      "number": 11,
+      "name": "Время обработки окна",
+      "passed": true,
+      "details": "single-window preprocessing time is below the window duration",
+      "metrics": {
+        "elapsed_s": 0.0033943000016734004,
+        "window_duration_s": 0.042666666666666665
+      }
+    },
+    {
+      "number": 12,
+      "name": "Отсутствие одного канала",
+      "passed": true,
+      "details": "missing channel was rejected with a clear error",
+      "metrics": {
+        "error": "CSV row 1 must contain exactly four channels"
+      }
+    },
+    {
+      "number": 13,
+      "name": "Некорректные параметры среды",
+      "passed": true,
+      "details": "invalid environment was rejected",
+      "metrics": {
+        "error": "temperature_c must be in the range [-80, 80]"
+      }
+    },
+    {
+      "number": 14,
+      "name": "Недостаточная информативность сигнала",
+      "passed": true,
+      "details": "silent window was marked insufficiently informative",
+      "metrics": {
+        "mean_rms": 0.0,
+        "reason": "low_energy"
+      }
+    },
+    {
+      "number": 15,
+      "name": "Длительный повторный прогон",
+      "passed": true,
+      "details": "repeated tracking run completed without rejected valid windows",
+      "metrics": {
+        "repeat_count": 100,
+        "accepted": 100,
+        "elapsed_s": 0.6995981999789365
+      }
+    }
+  ]
+}

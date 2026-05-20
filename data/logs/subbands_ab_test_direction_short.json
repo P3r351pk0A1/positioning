@@ -1,0 +1,218 @@
+[
+  {
+    "file": "direction_far_curve_chirp.wav",
+    "subbands": 1,
+    "selected": 36,
+    "informative": 35,
+    "ok": 35,
+    "shown": 35,
+    "rms_deg": 1.7196
+  },
+  {
+    "file": "direction_far_curve_chirp.wav",
+    "subbands": 2,
+    "selected": 36,
+    "informative": 35,
+    "ok": 35,
+    "shown": 35,
+    "rms_deg": 1.7196
+  },
+  {
+    "file": "direction_far_curve_chirp.wav",
+    "subbands": 4,
+    "selected": 36,
+    "informative": 35,
+    "ok": 35,
+    "shown": 35,
+    "rms_deg": 1.7195
+  },
+  {
+    "file": "direction_far_curve_chirp.wav",
+    "subbands": 8,
+    "selected": 36,
+    "informative": 35,
+    "ok": 35,
+    "shown": 35,
+    "rms_deg": 1.7185
+  },
+  {
+    "file": "direction_far_curve_multitone2.wav",
+    "subbands": 1,
+    "selected": 36,
+    "informative": 35,
+    "ok": 35,
+    "shown": 35,
+    "rms_deg": 0.9389
+  },
+  {
+    "file": "direction_far_curve_multitone2.wav",
+    "subbands": 2,
+    "selected": 36,
+    "informative": 35,
+    "ok": 35,
+    "shown": 35,
+    "rms_deg": 0.9389
+  },
+  {
+    "file": "direction_far_curve_multitone2.wav",
+    "subbands": 4,
+    "selected": 36,
+    "informative": 35,
+    "ok": 35,
+    "shown": 35,
+    "rms_deg": 0.9389
+  },
+  {
+    "file": "direction_far_curve_multitone2.wav",
+    "subbands": 8,
+    "selected": 36,
+    "informative": 35,
+    "ok": 35,
+    "shown": 35,
+    "rms_deg": 0.9389
+  },
+  {
+    "file": "direction_far_curve_amfm_v2.wav",
+    "subbands": 1,
+    "selected": 36,
+    "informative": 35,
+    "ok": 35,
+    "shown": 35,
+    "rms_deg": 1.152
+  },
+  {
+    "file": "direction_far_curve_amfm_v2.wav",
+    "subbands": 2,
+    "selected": 36,
+    "informative": 35,
+    "ok": 35,
+    "shown": 35,
+    "rms_deg": 1.152
+  },
+  {
+    "file": "direction_far_curve_amfm_v2.wav",
+    "subbands": 4,
+    "selected": 36,
+    "informative": 35,
+    "ok": 35,
+    "shown": 35,
+    "rms_deg": 1.1507
+  },
+  {
+    "file": "direction_far_curve_amfm_v2.wav",
+    "subbands": 8,
+    "selected": 36,
+    "informative": 35,
+    "ok": 35,
+    "shown": 35,
+    "rms_deg": 1.1524
+  },
+  {
+    "file": "direction_far_curve_sine_ref.wav",
+    "subbands": 1,
+    "selected": 36,
+    "informative": 35,
+    "ok": 35,
+    "shown": 35,
+    "rms_deg": 0.8729
+  },
+  {
+    "file": "direction_far_curve_sine_ref.wav",
+    "subbands": 2,
+    "selected": 36,
+    "informative": 35,
+    "ok": 35,
+    "shown": 35,
+    "rms_deg": 0.8729
+  },
+  {
+    "file": "direction_far_curve_sine_ref.wav",
+    "subbands": 4,
+    "selected": 36,
+    "informative": 35,
+    "ok": 35,
+    "shown": 35,
+    "rms_deg": 0.8729
+  },
+  {
+    "file": "direction_far_curve_sine_ref.wav",
+    "subbands": 8,
+    "selected": 36,
+    "informative": 35,
+    "ok": 35,
+    "shown": 35,
+    "rms_deg": 0.8729
+  },
+  {
+    "file": "side_looking_good_trajectory.wav",
+    "subbands": 1,
+    "selected": 12,
+    "informative": 12,
+    "ok": 12,
+    "shown": 12,
+    "rms_deg": 0.3334
+  },
+  {
+    "file": "side_looking_good_trajectory.wav",
+    "subbands": 2,
+    "selected": 12,
+    "informative": 12,
+    "ok": 12,
+    "shown": 12,
+    "rms_deg": 0.3334
+  },
+  {
+    "file": "side_looking_good_trajectory.wav",
+    "subbands": 4,
+    "selected": 12,
+    "informative": 12,
+    "ok": 12,
+    "shown": 12,
+    "rms_deg": 0.3334
+  },
+  {
+    "file": "side_looking_good_trajectory.wav",
+    "subbands": 8,
+    "selected": 12,
+    "informative": 12,
+    "ok": 12,
+    "shown": 12,
+    "rms_deg": 0.3334
+  },
+  {
+    "file": "real_rotor_reference_trajectory.wav",
+    "subbands": 1,
+    "selected": 60,
+    "informative": 18,
+    "ok": 10,
+    "shown": 10,
+    "rms_deg": 1.6051
+  },
+  {
+    "file": "real_rotor_reference_trajectory.wav",
+    "subbands": 2,
+    "selected": 60,
+    "informative": 18,
+    "ok": 10,
+    "shown": 10,
+    "rms_deg": 1.6051
+  },
+  {
+    "file": "real_rotor_reference_trajectory.wav",
+    "subbands": 4,
+    "selected": 60,
+    "informative": 18,
+    "ok": 10,
+    "shown": 10,
+    "rms_deg": 1.6051
+  },
+  {
+    "file": "real_rotor_reference_trajectory.wav",
+    "subbands": 8,
+    "selected": 60,
+    "informative": 18,
+    "ok": 10,
+    "shown": 10,
+    "rms_deg": 1.6051
+  }
+]

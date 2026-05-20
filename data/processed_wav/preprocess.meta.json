@@ -1,0 +1,21 @@
+{
+  "input": "data\\synthetic\\signal.wav",
+  "sample_rate": 48000,
+  "window_size": 2048,
+  "overlap": 0.5,
+  "frequency_band": [
+    100.0,
+    5000.0
+  ],
+  "window_count": 1,
+  "windows": [
+    {
+      "path": "data\\processed_wav\\window_0000.csv",
+      "timestamp": 0.0,
+      "mean_rms": 0.2883686420566496,
+      "mean_abs_correlation": 0.5999953186701245,
+      "informative": true,
+      "reason": ""
+    }
+  ]
+}

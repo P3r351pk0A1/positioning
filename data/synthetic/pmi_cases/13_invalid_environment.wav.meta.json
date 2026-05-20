@@ -1,0 +1,55 @@
+{
+  "kind": "synthetic_signal",
+  "sample_rate": 192000,
+  "duration_s": 0.25,
+  "sample_count": 48000,
+  "target": {
+    "x": 0.8,
+    "y": 0.4,
+    "z": 0.3
+  },
+  "source": {
+    "kind": "pulse",
+    "frequency_hz": 700.0,
+    "amplitude": 1.0,
+    "emission_time_s": 0.02
+  },
+  "environment": {
+    "temperature_c": 20.0,
+    "humidity_percent": 0.0,
+    "sound_speed_m_s": 343.42
+  },
+  "noise_std": 0.001,
+  "attenuation": true,
+  "reflection": {
+    "delay_s": 0.0,
+    "gain": 0.0
+  },
+  "outlier": {
+    "channel": null,
+    "time_s": 0.2,
+    "amplitude": 0.0
+  },
+  "channels": [
+    {
+      "arrival_time_s": 0.022747068060117816,
+      "distance_m": 0.9433981132056605,
+      "gain": 1.0
+    },
+    {
+      "arrival_time_s": 0.022555169875776635,
+      "distance_m": 0.8774964387392122,
+      "gain": 1.0
+    },
+    {
+      "arrival_time_s": 0.02241879443914684,
+      "distance_m": 0.8306623862918076,
+      "gain": 1.0
+    },
+    {
+      "arrival_time_s": 0.022620697687962262,
+      "distance_m": 0.9000000000000001,
+      "gain": 1.0
+    }
+  ]
+}

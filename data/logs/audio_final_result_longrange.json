@@ -1,0 +1,36 @@
+{
+  "mode": "position",
+  "status": "insufficient_signal",
+  "position": null,
+  "direction": null,
+  "azimuth_deg": null,
+  "elevation_deg": null,
+  "residual_error2": null,
+  "used_pairs": 0,
+  "rejected_pairs": 0,
+  "reliable": false,
+  "confidence": 0.0,
+  "message": "window is not informative: low_energy",
+  "timestamp": 1.152,
+  "accepted": false,
+  "smoothed_azimuth_deg": null,
+  "smoothed_elevation_deg": null,
+  "azimuth_rate_deg_s": null,
+  "elevation_rate_deg_s": null,
+  "aggregated_confidence": 0.0,
+  "tracking_message": "result has no angular estimate",
+  "environment": {
+    "temperature_c": 20.0,
+    "humidity_percent": 0.0,
+    "sound_speed_m_s": 343.42
+  },
+  "audio": {
+    "sample_rate": 96000,
+    "window_size": 4096,
+    "overlap": 0.5,
+    "frequency_band": [
+      100.0,
+      5000.0
+    ]
+  }
+}

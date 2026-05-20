@@ -1,0 +1,373 @@
+{
+  "input": "data\\synthetic\\ex_signal.wav",
+  "sample_rate": 48000,
+  "window_size": 2048,
+  "overlap": 0.5,
+  "frequency_band": [
+    100.0,
+    5000.0
+  ],
+  "window_count": 45,
+  "windows": [
+    {
+      "path": "data\\processed_ex\\window_0000.csv",
+      "timestamp": 0.0,
+      "mean_rms": 0.06891292882081577,
+      "mean_abs_correlation": 0.36347005785395975,
+      "informative": true,
+      "reason": ""
+    },
+    {
+      "path": "data\\processed_ex\\window_0001.csv",
+      "timestamp": 0.021333333333333333,
+      "mean_rms": 0.01943522344276848,
+      "mean_abs_correlation": 0.36226616935526484,
+      "informative": true,
+      "reason": ""
+    },
+    {
+      "path": "data\\processed_ex\\window_0002.csv",
+      "timestamp": 0.042666666666666665,
+      "mean_rms": 0.0013591050255649926,
+      "mean_abs_correlation": 0.05639676544158683,
+      "informative": true,
+      "reason": ""
+    },
+    {
+      "path": "data\\processed_ex\\window_0003.csv",
+      "timestamp": 0.064,
+      "mean_rms": 0.0014028872719735268,
+      "mean_abs_correlation": 0.05069439640399564,
+      "informative": true,
+      "reason": ""
+    },
+    {
+      "path": "data\\processed_ex\\window_0004.csv",
+      "timestamp": 0.08533333333333333,
+      "mean_rms": 0.0014368089116364735,
+      "mean_abs_correlation": 0.09772385710217478,
+      "informative": true,
+      "reason": ""
+    },
+    {
+      "path": "data\\processed_ex\\window_0005.csv",
+      "timestamp": 0.10666666666666667,
+      "mean_rms": 0.0013809193295359953,
+      "mean_abs_correlation": 0.08689904507448983,
+      "informative": true,
+      "reason": ""
+    },
+    {
+      "path": "data\\processed_ex\\window_0006.csv",
+      "timestamp": 0.128,
+      "mean_rms": 0.0013476834187837515,
+      "mean_abs_correlation": 0.030894733436155092,
+      "informative": false,
+      "reason": "low_interchannel_correlation"
+    },
+    {
+      "path": "data\\processed_ex\\window_0007.csv",
+      "timestamp": 0.14933333333333335,
+      "mean_rms": 0.001376480319310073,
+      "mean_abs_correlation": 0.06449665098848432,
+      "informative": true,
+      "reason": ""
+    },
+    {
+      "path": "data\\processed_ex\\window_0008.csv",
+      "timestamp": 0.17066666666666666,
+      "mean_rms": 0.0013636309919110505,
+      "mean_abs_correlation": 0.04191899910475579,
+      "informative": false,
+      "reason": "low_interchannel_correlation"
+    },
+    {
+      "path": "data\\processed_ex\\window_0009.csv",
+      "timestamp": 0.192,
+      "mean_rms": 0.001353384204345521,
+      "mean_abs_correlation": 0.06825470383364748,
+      "informative": true,
+      "reason": ""
+    },
+    {
+      "path": "data\\processed_ex\\window_0010.csv",
+      "timestamp": 0.21333333333333335,
+      "mean_rms": 0.001346834720020295,
+      "mean_abs_correlation": 0.06243445378426634,
+      "informative": true,
+      "reason": ""
+    },
+    {
+      "path": "data\\processed_ex\\window_0011.csv",
+      "timestamp": 0.23466666666666666,
+      "mean_rms": 0.0014226894352029266,
+      "mean_abs_correlation": 0.07258459163126939,
+      "informative": true,
+      "reason": ""
+    },
+    {
+      "path": "data\\processed_ex\\window_0012.csv",
+      "timestamp": 0.256,
+      "mean_rms": 0.001323671988130501,
+      "mean_abs_correlation": 0.055445382181513854,
+      "informative": true,
+      "reason": ""
+    },
+    {
+      "path": "data\\processed_ex\\window_0013.csv",
+      "timestamp": 0.2773333333333333,
+      "mean_rms": 0.0013622238764404023,
+      "mean_abs_correlation": 0.04868860091734186,
+      "informative": false,
+      "reason": "low_interchannel_correlation"
+    },
+    {
+      "path": "data\\processed_ex\\window_0014.csv",
+      "timestamp": 0.2986666666666667,
+      "mean_rms": 0.0013839534091155906,
+      "mean_abs_correlation": 0.03664926658150941,
+      "informative": false,
+      "reason": "low_interchannel_correlation"
+    },
+    {
+      "path": "data\\processed_ex\\window_0015.csv",
+      "timestamp": 0.32,
+      "mean_rms": 0.0013524903551244574,
+      "mean_abs_correlation": 0.05353206805857121,
+      "informative": true,
+      "reason": ""
+    },
+    {
+      "path": "data\\processed_ex\\window_0016.csv",
+      "timestamp": 0.3413333333333333,
+      "mean_rms": 0.0014172167852278179,
+      "mean_abs_correlation": 0.09514862747453379,
+      "informative": true,
+      "reason": ""
+    },
+    {
+      "path": "data\\processed_ex\\window_0017.csv",
+      "timestamp": 0.3626666666666667,
+      "mean_rms": 0.0013134554629317741,
+      "mean_abs_correlation": 0.02312399453778467,
+      "informative": false,
+      "reason": "low_interchannel_correlation"
+    },
+    {
+      "path": "data\\processed_ex\\window_0018.csv",
+      "timestamp": 0.384,
+      "mean_rms": 0.0013365178246831548,
+      "mean_abs_correlation": 0.08307778518266129,
+      "informative": true,
+      "reason": ""
+    },
+    {
+      "path": "data\\processed_ex\\window_0019.csv",
+      "timestamp": 0.4053333333333333,
+      "mean_rms": 0.0013717716411101588,
+      "mean_abs_correlation": 0.08444577971406936,
+      "informative": true,
+      "reason": ""
+    },
+    {
+      "path": "data\\processed_ex\\window_0020.csv",
+      "timestamp": 0.4266666666666667,
+      "mean_rms": 0.0013510724949530872,
+      "mean_abs_correlation": 0.04959985744580797,
+      "informative": false,
+      "reason": "low_interchannel_correlation"
+    },
+    {
+      "path": "data\\processed_ex\\window_0021.csv",
+      "timestamp": 0.448,
+      "mean_rms": 0.001399214095214565,
+      "mean_abs_correlation": 0.040845262372504944,
+      "informative": false,
+      "reason": "low_interchannel_correlation"
+    },
+    {
+      "path": "data\\processed_ex\\window_0022.csv",
+      "timestamp": 0.4693333333333333,
+      "mean_rms": 0.0014193894336992634,
+      "mean_abs_correlation": 0.0379279929866047,
+      "informative": false,
+      "reason": "low_interchannel_correlation"
+    },
+    {
+      "path": "data\\processed_ex\\window_0023.csv",
+      "timestamp": 0.49066666666666664,
+      "mean_rms": 0.0013428228437674097,
+      "mean_abs_correlation": 0.07055861747421989,
+      "informative": true,
+      "reason": ""
+    },
+    {
+      "path": "data\\processed_ex\\window_0024.csv",
+      "timestamp": 0.512,
+      "mean_rms": 0.0013820785314104889,
+      "mean_abs_correlation": 0.06091697632837489,
+      "informative": true,
+      "reason": ""
+    },
+    {
+      "path": "data\\processed_ex\\window_0025.csv",
+      "timestamp": 0.5333333333333333,
+      "mean_rms": 0.0014692234083342958,
+      "mean_abs_correlation": 0.0753554196712048,
+      "informative": true,
+      "reason": ""
+    },
+    {
+      "path": "data\\processed_ex\\window_0026.csv",
+      "timestamp": 0.5546666666666666,
+      "mean_rms": 0.0013850482935922072,
+      "mean_abs_correlation": 0.07075080871764942,
+      "informative": true,
+      "reason": ""
+    },
+    {
+      "path": "data\\processed_ex\\window_0027.csv",
+      "timestamp": 0.576,
+      "mean_rms": 0.0013938647994721064,
+      "mean_abs_correlation": 0.026870727495053894,
+      "informative": false,
+      "reason": "low_interchannel_correlation"
+    },
+    {
+      "path": "data\\processed_ex\\window_0028.csv",
+      "timestamp": 0.5973333333333334,
+      "mean_rms": 0.0013937464233316557,
+      "mean_abs_correlation": 0.05601296458938849,
+      "informative": true,
+      "reason": ""
+    },
+    {
+      "path": "data\\processed_ex\\window_0029.csv",
+      "timestamp": 0.6186666666666667,
+      "mean_rms": 0.0014093988252469286,
+      "mean_abs_correlation": 0.041475191694924037,
+      "informative": false,
+      "reason": "low_interchannel_correlation"
+    },
+    {
+      "path": "data\\processed_ex\\window_0030.csv",
+      "timestamp": 0.64,
+      "mean_rms": 0.0013507261167867474,
+      "mean_abs_correlation": 0.04255477818609261,
+      "informative": false,
+      "reason": "low_interchannel_correlation"
+    },
+    {
+      "path": "data\\processed_ex\\window_0031.csv",
+      "timestamp": 0.6613333333333333,
+      "mean_rms": 0.0014086845229792908,
+      "mean_abs_correlation": 0.02983208415878065,
+      "informative": false,
+      "reason": "low_interchannel_correlation"
+    },
+    {
+      "path": "data\\processed_ex\\window_0032.csv",
+      "timestamp": 0.6826666666666666,
+      "mean_rms": 0.0013784079990985455,
+      "mean_abs_correlation": 0.060171919260543515,
+      "informative": true,
+      "reason": ""
+    },
+    {
+      "path": "data\\processed_ex\\window_0033.csv",
+      "timestamp": 0.704,
+      "mean_rms": 0.0013906922778168579,
+      "mean_abs_correlation": 0.05881340359259477,
+      "informative": true,
+      "reason": ""
+    },
+    {
+      "path": "data\\processed_ex\\window_0034.csv",
+      "timestamp": 0.7253333333333334,
+      "mean_rms": 0.001335205171617772,
+      "mean_abs_correlation": 0.036274412206977996,
+      "informative": false,
+      "reason": "low_interchannel_correlation"
+    },
+    {
+      "path": "data\\processed_ex\\window_0035.csv",
+      "timestamp": 0.7466666666666667,
+      "mean_rms": 0.001402462274879973,
+      "mean_abs_correlation": 0.06943126787714557,
+      "informative": true,
+      "reason": ""
+    },
+    {
+      "path": "data\\processed_ex\\window_0036.csv",
+      "timestamp": 0.768,
+      "mean_rms": 0.0013503084608072651,
+      "mean_abs_correlation": 0.03530439361331015,
+      "informative": false,
+      "reason": "low_interchannel_correlation"
+    },
+    {
+      "path": "data\\processed_ex\\window_0037.csv",
+      "timestamp": 0.7893333333333333,
+      "mean_rms": 0.0014091073811246455,
+      "mean_abs_correlation": 0.05455447779393765,
+      "informative": true,
+      "reason": ""
+    },
+    {
+      "path": "data\\processed_ex\\window_0038.csv",
+      "timestamp": 0.8106666666666666,
+      "mean_rms": 0.0014148295742963208,
+      "mean_abs_correlation": 0.04665056020908409,
+      "informative": false,
+      "reason": "low_interchannel_correlation"
+    },
+    {
+      "path": "data\\processed_ex\\window_0039.csv",
+      "timestamp": 0.832,
+      "mean_rms": 0.0013521300012101667,
+      "mean_abs_correlation": 0.037934330587070825,
+      "informative": false,
+      "reason": "low_interchannel_correlation"
+    },
+    {
+      "path": "data\\processed_ex\\window_0040.csv",
+      "timestamp": 0.8533333333333334,
+      "mean_rms": 0.0013509283164441753,
+      "mean_abs_correlation": 0.05950792465514965,
+      "informative": true,
+      "reason": ""
+    },
+    {
+      "path": "data\\processed_ex\\window_0041.csv",
+      "timestamp": 0.8746666666666667,
+      "mean_rms": 0.0013634114025940795,
+      "mean_abs_correlation": 0.0649986707464426,
+      "informative": true,
+      "reason": ""
+    },
+    {
+      "path": "data\\processed_ex\\window_0042.csv",
+      "timestamp": 0.896,
+      "mean_rms": 0.0013570093130786053,
+      "mean_abs_correlation": 0.05030708561906819,
+      "informative": true,
+      "reason": ""
+    },
+    {
+      "path": "data\\processed_ex\\window_0043.csv",
+      "timestamp": 0.9173333333333333,
+      "mean_rms": 0.0013971185839426934,
+      "mean_abs_correlation": 0.05588384707479473,
+      "informative": true,
+      "reason": ""
+    },
+    {
+      "path": "data\\processed_ex\\window_0044.csv",
+      "timestamp": 0.9386666666666666,
+      "mean_rms": 0.0014226159229860104,
+      "mean_abs_correlation": 0.07082797359839403,
+      "informative": true,
+      "reason": ""
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "kind": "synthetic_signal",
+  "sample_rate": 192000,
+  "duration_s": 0.25,
+  "sample_count": 48000,
+  "target": {
+    "x": 0.7,
+    "y": 0.3,
+    "z": 0.25
+  },
+  "source": {
+    "kind": "chirp",
+    "frequency_hz": 700.0,
+    "amplitude": 1.0,
+    "emission_time_s": 0.02
+  },
+  "environment": {
+    "temperature_c": 20.0,
+    "humidity_percent": 0.0,
+    "sound_speed_m_s": 343.42
+  },
+  "noise_std": 0.001,
+  "attenuation": true,
+  "reflection": {
+    "delay_s": 0.0,
+    "gain": 0.0
+  },
+  "outlier": {
+    "channel": null,
+    "time_s": 0.2,
+    "amplitude": 0.0
+  },
+  "channels": [
+    {
+      "arrival_time_s": 0.022334054443812444,
+      "distance_m": 0.8015609770940698,
+      "gain": 1.0
+    },
+    {
+      "arrival_time_s": 0.02218391473996855,
+      "distance_m": 0.75,
+      "gain": 1.0
+    },
+    {
+      "arrival_time_s": 0.02206415568090936,
+      "distance_m": 0.7088723439378912,
+      "gain": 1.0
+    },
+    {
+      "arrival_time_s": 0.022222400780745697,
+      "distance_m": 0.7632168761236874,
+      "gain": 1.0
+    }
+  ]
+}

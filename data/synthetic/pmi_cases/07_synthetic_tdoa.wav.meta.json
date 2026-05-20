@@ -1,0 +1,55 @@
+{
+  "kind": "synthetic_signal",
+  "sample_rate": 192000,
+  "duration_s": 0.35,
+  "sample_count": 67200,
+  "target": {
+    "x": 1.1,
+    "y": 0.4,
+    "z": 0.4
+  },
+  "source": {
+    "kind": "multitone_burst",
+    "frequency_hz": 700.0,
+    "amplitude": 1.0,
+    "emission_time_s": 0.02
+  },
+  "environment": {
+    "temperature_c": 20.0,
+    "humidity_percent": 0.0,
+    "sound_speed_m_s": 343.42
+  },
+  "noise_std": 0.001,
+  "attenuation": true,
+  "reflection": {
+    "delay_s": 0.0,
+    "gain": 0.0
+  },
+  "outlier": {
+    "channel": null,
+    "time_s": 0.2,
+    "amplitude": 0.0
+  },
+  "channels": [
+    {
+      "arrival_time_s": 0.023601804460093467,
+      "distance_m": 1.2369316876852983,
+      "gain": 0.8084520834544432
+    },
+    {
+      "arrival_time_s": 0.023457673428174806,
+      "distance_m": 1.1874342087037917,
+      "gain": 0.8421519210665189
+    },
+    {
+      "arrival_time_s": 0.023307267104886304,
+      "distance_m": 1.1357816691600549,
+      "gain": 0.8804509063256237
+    },
+    {
+      "arrival_time_s": 0.023457673428174806,
+      "distance_m": 1.1874342087037917,
+      "gain": 0.8421519210665189
+    }
+  ]
+}

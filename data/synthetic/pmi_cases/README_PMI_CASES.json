@@ -1,0 +1,124 @@
+{
+  "cases": [
+    {
+      "index": 1,
+      "name_ru": "?????? ?????????",
+      "slug": "program_start",
+      "config": "configs/pmi_cases/01_program_start.json",
+      "wav": "data/pmi_cases/01_program_start.wav",
+      "metadata": "data/pmi_cases/01_program_start.wav.meta.json"
+    },
+    {
+      "index": 2,
+      "name_ru": "?????? ?????? ? ??????????",
+      "slug": "four_channels_metadata",
+      "config": "configs/pmi_cases/02_four_channels_metadata.json",
+      "wav": "data/pmi_cases/02_four_channels_metadata.wav",
+      "metadata": "data/pmi_cases/02_four_channels_metadata.wav.meta.json"
+    },
+    {
+      "index": 3,
+      "name_ru": "???????? ?????",
+      "slug": "file_mode",
+      "config": "configs/pmi_cases/03_file_mode.json",
+      "wav": "data/pmi_cases/03_file_mode.wav",
+      "metadata": "data/pmi_cases/03_file_mode.wav.meta.json"
+    },
+    {
+      "index": 4,
+      "name_ru": "????????? ?????",
+      "slug": "environment",
+      "config": "configs/pmi_cases/04_environment.json",
+      "wav": "data/pmi_cases/04_environment.wav",
+      "metadata": "data/pmi_cases/04_environment.wav.meta.json"
+    },
+    {
+      "index": 5,
+      "name_ru": "??? ? ??????????",
+      "slug": "noise_filtering",
+      "config": "configs/pmi_cases/05_noise_filtering.json",
+      "wav": "data/pmi_cases/05_noise_filtering.wav",
+      "metadata": "data/pmi_cases/05_noise_filtering.wav.meta.json"
+    },
+    {
+      "index": 6,
+      "name_ru": "GCC-PHAT TDOA",
+      "slug": "gcc_phat_tdoa",
+      "config": "configs/pmi_cases/06_gcc_phat_tdoa.json",
+      "wav": "data/pmi_cases/06_gcc_phat_tdoa.wav",
+      "metadata": "data/pmi_cases/06_gcc_phat_tdoa.wav.meta.json"
+    },
+    {
+      "index": 7,
+      "name_ru": "TDOA ?????????",
+      "slug": "synthetic_tdoa",
+      "config": "configs/pmi_cases/07_synthetic_tdoa.json",
+      "wav": "data/pmi_cases/07_synthetic_tdoa.wav",
+      "metadata": "data/pmi_cases/07_synthetic_tdoa.wav.meta.json"
+    },
+    {
+      "index": 8,
+      "name_ru": "?????????? ?????????",
+      "slug": "reflection_rejection",
+      "config": "configs/pmi_cases/08_reflection_rejection.json",
+      "wav": "data/pmi_cases/08_reflection_rejection.wav",
+      "metadata": "data/pmi_cases/08_reflection_rejection.wav.meta.json"
+    },
+    {
+      "index": 9,
+      "name_ru": "??????????? ? ??????????",
+      "slug": "direction_position",
+      "config": "configs/pmi_cases/09_direction_position.json",
+      "wav": "data/pmi_cases/09_direction_position.wav",
+      "metadata": "data/pmi_cases/09_direction_position.wav.meta.json"
+    },
+    {
+      "index": 10,
+      "name_ru": "JSON CSV ? ??????",
+      "slug": "json_csv_log",
+      "config": "configs/pmi_cases/10_json_csv_log.json",
+      "wav": "data/pmi_cases/10_json_csv_log.wav",
+      "metadata": "data/pmi_cases/10_json_csv_log.wav.meta.json"
+    },
+    {
+      "index": 11,
+      "name_ru": "????? ????????? ????",
+      "slug": "window_time",
+      "config": "configs/pmi_cases/11_window_time.json",
+      "wav": "data/pmi_cases/11_window_time.wav",
+      "metadata": "data/pmi_cases/11_window_time.wav.meta.json"
+    },
+    {
+      "index": 12,
+      "name_ru": "?????????? ?????? ??????",
+      "slug": "missing_channel",
+      "config": "configs/pmi_cases/12_missing_channel.json",
+      "wav": "data/pmi_cases/12_missing_channel.wav",
+      "metadata": "data/pmi_cases/12_missing_channel.wav.meta.json"
+    },
+    {
+      "index": 13,
+      "name_ru": "???????????? ????????? ?????",
+      "slug": "invalid_environment",
+      "config": "configs/pmi_cases/13_invalid_environment.json",
+      "wav": "data/pmi_cases/13_invalid_environment.wav",
+      "metadata": "data/pmi_cases/13_invalid_environment.wav.meta.json"
+    },
+    {
+      "index": 14,
+      "name_ru": "????????????? ???????????????",
+      "slug": "insufficient_signal",
+      "config": "configs/pmi_cases/14_insufficient_signal.json",
+      "wav": "data/pmi_cases/14_insufficient_signal.wav",
+      "metadata": "data/pmi_cases/14_insufficient_signal.wav.meta.json"
+    },
+    {
+      "index": 15,
+      "name_ru": "?????????? ??????",
+      "slug": "long_run",
+      "config": "configs/pmi_cases/15_long_run.json",
+      "wav": "data/pmi_cases/15_long_run.wav",
+      "metadata": "data/pmi_cases/15_long_run.wav.meta.json"
+    }
+  ]
+}

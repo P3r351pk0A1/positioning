@@ -1,0 +1,4 @@
+window_index,timestamp,status,mode,accepted,azimuth_deg,elevation_deg,smoothed_azimuth_deg,smoothed_elevation_deg,azimuth_rate_deg_s,elevation_rate_deg_s,confidence,aggregated_confidence,residual_error2,used_pairs,rejected_pairs,reliable,message,tracking_message,temperature_c,humidity_percent,sound_speed_m_s,window_size,overlap,tdoa_pairs_json
+0,0.0,insufficient_signal,direction,False,,,,,,,0.0,0.0,,0,0,False,window is not informative: low_energy,result has no angular estimate,20.0,0.0,343.42,2048,0.5,[]
+1,0.005333333333333333,insufficient_signal,direction,False,,,,,,,0.0,0.0,,0,0,False,window is not informative: low_energy,result has no angular estimate,20.0,0.0,343.42,2048,0.5,[]
+2,0.010666666666666666,insufficient_signal,direction,False,,,,,,,0.0,0.0,,0,0,False,window is not informative: low_energy,result has no angular estimate,20.0,0.0,343.42,2048,0.5,[]

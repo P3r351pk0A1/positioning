@@ -1,0 +1,5 @@
+file,mode,policy_mix,ok_inf,RMS_deg,p95_deg
+direction_far_curve_sine_ref.wav,direction,n=210;w=0,35/35,0.8569247300969527,1.4095490403617335
+direction_far_curve_chirp.wav,direction,n=0;w=210,35/35,1.7289027972717514,3.108603298787099
+direction_far_curve_multitone2.wav,direction,n=210;w=0,35/35,0.911143514131396,1.6605380079742817
+direction_far_curve_amfm_v2.wav,direction,n=0;w=210,35/35,1.1520384062995503,2.0462846213026404

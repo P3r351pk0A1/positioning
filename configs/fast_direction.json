@@ -7,29 +7,29 @@
         "z": 0.0
       },
       {
-        "x": 0.0,
+        "x": 0.2,
+        "y": 0.0,
+        "z": 0.0
+      },
+      {
+        "x": 0.2,
         "y": 0.2,
         "z": 0.0
       },
       {
         "x": 0.0,
         "y": 0.2,
-        "z": 0.2
-      },
-      {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.2
+        "z": 0.0
       }
     ]
   },
   "audio": {
-    "sample_rate": 192000,
-    "window_size": 8192,
-    "overlap": 0.5,
+    "sample_rate": 24000,
+    "window_size": 1920,
+    "overlap": 0.25,
     "frequency_band": [
       100.0,
-      20000.0
+      4500.0
     ]
   },
   "environment": {
@@ -37,6 +37,6 @@
     "humidity_percent": 0.0
   },
   "localization": {
-    "mode": "position"
+    "mode": "direction"
   }
 }

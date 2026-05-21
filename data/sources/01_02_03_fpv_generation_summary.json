@@ -1,0 +1,7 @@
+{
+  "config": "configs/default.json",
+  "reference": "..\\FPV дрон.wav",
+  "output_dir": "data\\sources",
+  "sample_rate_hz": 48000,
+  "duration_s": 6.0
+}

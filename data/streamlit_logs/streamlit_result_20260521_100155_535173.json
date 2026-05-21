@@ -1,0 +1,56 @@
+{
+  "run_id": "20260521_100155_535173",
+  "saved_at_local": "2026-05-21T10:01:55",
+  "streamlit_options": {
+    "config_path": "configs\\side_looking_demo.json",
+    "signal_path": "data\\synthetic\\direction_long_nonlinear.csv",
+    "metadata_path": "data\\synthetic\\direction_long_nonlinear.csv.meta.json",
+    "mode": "direction",
+    "window_selection": "first",
+    "window_size_samples": 12288,
+    "interpolation": 16,
+    "subbands": 1,
+    "tdoa_policy": "auto",
+    "min_quality": 0.2,
+    "min_confidence": 0.0
+  },
+  "summary": {
+    "windows_total": 111,
+    "windows_displayed": 58,
+    "windows_ok": 58,
+    "windows_informative": 58
+  },
+  "environment": {
+    "temperature_c": 20.0,
+    "humidity_percent": 0.0,
+    "sound_speed_m_s": 343.42
+  },
+  "audio": {
+    "sample_rate": 192000,
+    "window_size": 12288,
+    "overlap": 0.5,
+    "frequency_band": [
+      100.0,
+      20000.0
+    ]
+  },
+  "final_result": {
+    "timestamp_s": 3.616,
+    "status": "ok",
+    "mode": "direction",
+    "confidence": 0.9916784192900511,
+    "azimuth_deg": 9.5385754815473,
+    "elevation_deg": 3.8394577790857407,
+    "position": null,
+    "direction": {
+      "x": 0.9839608781283231,
+      "y": 0.16533967946290581,
+      "z": 0.06696103873181175
+    },
+    "residual_error2": 3.7394300976584657e-07,
+    "used_pairs": 6,
+    "rejected_pairs": 0,
+    "reliable": true,
+    "message": ""
+  }
+}

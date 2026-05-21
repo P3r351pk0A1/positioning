@@ -1,0 +1,12 @@
+window_index,timestamp_s,status,confidence,azimuth_deg,elevation_deg,x_m,y_m,z_m,used_pairs,rejected_pairs,tdoa_policy,informative,message,reason,preprocess_s,gcc_s,localize_s,total_s,runtime_error
+0,0.0,ok,0.7370645416058588,26.73764254937309,13.344966521902823,0.6842207212352279,0.4446905917054327,0.2817426769421636,5,1,wideband,True,transitivity errors: 2; rejected pairs: 1,,0.013605799991637468,0.5264332999940962,0.351755200070329,0.8918304999824613,False
+1,0.032,ok,0.7405194979334433,13.393751640912468,6.2878152900614825,0.7613764323093619,0.28129770990966724,0.18623844099575204,5,1,wideband,True,transitivity errors: 1; rejected pairs: 1,,0.013388699968345463,0.578916099970229,0.15099460002966225,0.7433484999928623,False
+2,0.064,insufficient_signal,0.0,,,,,,0,0,manual,False,окно неинформативно: low_interchannel_correlation,low_interchannel_correlation,0.012963799992576241,0.0,0.0,0.012997500016354024,False
+3,0.096,insufficient_signal,0.0,,,,,,0,0,manual,False,окно неинформативно: low_interchannel_correlation,low_interchannel_correlation,0.011893699993379414,0.0,0.0,0.011921800090931356,False
+4,0.128,insufficient_signal,0.0,,,,,,0,0,manual,False,окно неинформативно: low_interchannel_correlation,low_interchannel_correlation,0.01312239991966635,0.0,0.0,0.013148800004273653,False
+5,0.16,insufficient_signal,0.0,,,,,,0,0,manual,False,окно неинформативно: low_interchannel_correlation,low_interchannel_correlation,0.013582299929112196,0.0,0.0,0.013612499926239252,False
+6,0.192,insufficient_signal,0.0,,,,,,0,0,manual,False,окно неинформативно: low_interchannel_correlation,low_interchannel_correlation,0.012732900097034872,0.0,0.0,0.012753900024108589,False
+7,0.224,insufficient_signal,0.0,,,,,,0,0,manual,False,окно неинформативно: low_interchannel_correlation,low_interchannel_correlation,0.012298700050450861,0.0,0.0,0.012319300090894103,False
+8,0.256,insufficient_signal,0.0,,,,,,0,0,manual,False,окно неинформативно: low_interchannel_correlation,low_interchannel_correlation,0.012149499962106347,0.0,0.0,0.012204900034703314,False
+9,0.288,insufficient_signal,0.0,,,,,,0,0,manual,False,окно неинформативно: low_interchannel_correlation,low_interchannel_correlation,0.012745800078846514,0.0,0.0,0.012774599948897958,False
+10,0.32,insufficient_signal,0.0,,,,,,0,0,manual,False,окно неинформативно: low_interchannel_correlation,low_interchannel_correlation,0.015157600049860775,0.0,0.0,0.015199000015854836,False

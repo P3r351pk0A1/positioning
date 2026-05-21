@@ -1,0 +1,40 @@
+{
+  "mode": "direction",
+  "status": "ok",
+  "position": null,
+  "direction": {
+    "x": 0.851763841432083,
+    "y": 0.1686819703804176,
+    "z": 0.4960289823159947
+  },
+  "azimuth_deg": 11.201824592181223,
+  "elevation_deg": 29.737625507816418,
+  "residual_error2": 4.057970742224094e-06,
+  "used_pairs": 6,
+  "rejected_pairs": 0,
+  "reliable": true,
+  "confidence": 0.9725869362643496,
+  "message": "",
+  "timestamp": 5.632,
+  "accepted": true,
+  "smoothed_azimuth_deg": 10.485341059277198,
+  "smoothed_elevation_deg": 29.67362223818477,
+  "azimuth_rate_deg_s": 3.0140533235145623,
+  "elevation_rate_deg_s": 0.26924452369081453,
+  "aggregated_confidence": 0.9793565755735049,
+  "tracking_message": "",
+  "environment": {
+    "temperature_c": 20.0,
+    "humidity_percent": 0.0,
+    "sound_speed_m_s": 343.42
+  },
+  "audio": {
+    "sample_rate": 48000,
+    "window_size": 12288,
+    "overlap": 0.5,
+    "frequency_band": [
+      40.0,
+      5000.0
+    ]
+  }
+}

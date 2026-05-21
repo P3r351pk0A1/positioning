@@ -2,12 +2,14 @@
 
 from __future__ import annotations
 
+import csv
 from dataclasses import dataclass, replace
 import inspect
+from datetime import datetime
 from pathlib import Path
 import time
 from typing import Sequence
-
+import json
 import plotly.graph_objects as go
 import numpy as np
 import streamlit as st
@@ -100,11 +102,164 @@ def main() -> None:
         _result_panel(accepted)
 
     _table(estimates, truth_samples, str(options["mode"]), config.microphone_array.center)
+    csv_log_path, json_log_path = _persist_streamlit_logs(
+        config=config,
+        options=options,
+        estimates=estimates,
+        accepted=accepted,
+    )
+    st.caption(f"Логи Streamlit сохранены: CSV `{csv_log_path}`, JSON `{json_log_path}`")
 
+def _weather_caption_for_config(config_path: Path) -> str:
+    try:
+        data = json.loads(config_path.read_text(encoding="utf-8"))
+        environment = data.get("environment", {})
+        temperature_c = float(environment.get("temperature_c", 20.0))
+        humidity_percent = float(environment.get("humidity_percent", 50.0))
+        loaded = load_config(str(config_path))
+        sound_speed = loaded.environment.sound_speed
+        return (
+            "Метаданные погоды: "
+            f"температура {temperature_c:.1f} °C, "
+            f"влажность {humidity_percent:.1f} %, "
+            f"скорость звука {sound_speed:.2f} м/с"
+        )
+    except (OSError, ValueError, TypeError, ConfigError):
+        return "Метаданные погоды: недоступно"
+
+
+def _persist_streamlit_logs(
+    *,
+    config: AppConfig,
+    options: dict[str, object],
+    estimates: Sequence[WindowEstimate],
+    accepted: Sequence[WindowEstimate],
+) -> tuple[str, str]:
+    logs_dir = Path("data/streamlit_logs")
+    logs_dir.mkdir(parents=True, exist_ok=True)
+    run_id = datetime.now().strftime("%Y%m%d_%H%M%S_%f")
+    csv_path = logs_dir / f"streamlit_windows_{run_id}.csv"
+    json_path = logs_dir / f"streamlit_result_{run_id}.json"
+
+    with csv_path.open("w", encoding="utf-8", newline="") as csv_file:
+        writer = csv.DictWriter(
+            csv_file,
+            fieldnames=[
+                "window_index",
+                "timestamp_s",
+                "status",
+                "confidence",
+                "azimuth_deg",
+                "elevation_deg",
+                "x_m",
+                "y_m",
+                "z_m",
+                "used_pairs",
+                "rejected_pairs",
+                "tdoa_policy",
+                "informative",
+                "message",
+                "reason",
+                "preprocess_s",
+                "gcc_s",
+                "localize_s",
+                "total_s",
+                "runtime_error",
+            ],
+        )
+        writer.writeheader()
+        for item in estimates:
+            writer.writerow(
+                {
+                    "window_index": item.window_index,
+                    "timestamp_s": item.timestamp,
+                    "status": item.result.status,
+                    "confidence": item.result.confidence,
+                    "azimuth_deg": item.result.azimuth_deg,
+                    "elevation_deg": item.result.elevation_deg,
+                    "x_m": item.display_point.x if item.display_point else None,
+                    "y_m": item.display_point.y if item.display_point else None,
+                    "z_m": item.display_point.z if item.display_point else None,
+                    "used_pairs": item.result.used_pairs,
+                    "rejected_pairs": item.result.rejected_pairs,
+                    "tdoa_policy": item.tdoa_policy,
+                    "informative": item.informative,
+                    "message": item.result.message,
+                    "reason": item.reason,
+                    "preprocess_s": item.preprocess_s,
+                    "gcc_s": item.gcc_s,
+                    "localize_s": item.localize_s,
+                    "total_s": item.total_s,
+                    "runtime_error": item.runtime_error,
+                }
+            )
+
+    final_item = accepted[-1] if accepted else (estimates[-1] if estimates else None)
+    payload: dict[str, object] = {
+        "run_id": run_id,
+        "saved_at_local": datetime.now().isoformat(timespec="seconds"),
+        "streamlit_options": {
+            "config_path": str(options.get("config_path", "")),
+            "signal_path": str(options.get("signal_path", "")),
+            "metadata_path": str(options.get("metadata_path", "")),
+            "mode": str(options.get("mode", "")),
+            "window_selection": str(options.get("window_selection", "")),
+            "window_size_samples": int(options.get("window_size_samples", 0)),
+            "interpolation": int(options.get("interpolation", 0)),
+            "subbands": int(options.get("subbands", 0)),
+            "tdoa_policy": str(options.get("tdoa_policy", "")),
+            "min_quality": float(options.get("min_quality", 0.0)),
+            "min_confidence": float(options.get("min_confidence", 0.0)),
+        },
+        "summary": {
+            "windows_total": len(estimates),
+            "windows_displayed": len(accepted),
+            "windows_ok": sum(1 for item in estimates if item.result.status == "ok"),
+            "windows_informative": sum(1 for item in estimates if item.informative),
+        },
+        "environment": {
+            "temperature_c": config.environment.temperature_c,
+            "humidity_percent": config.environment.humidity_percent,
+            "sound_speed_m_s": config.environment.sound_speed,
+        },
+        "audio": {
+            "sample_rate": config.audio.sample_rate,
+            "window_size": config.audio.window_size,
+            "overlap": config.audio.overlap,
+            "frequency_band": list(config.audio.frequency_band),
+        },
+    }
+    if final_item is not None:
+        payload["final_result"] = {
+            "timestamp_s": final_item.timestamp,
+            "status": final_item.result.status,
+            "mode": final_item.result.mode,
+            "confidence": final_item.result.confidence,
+            "azimuth_deg": final_item.result.azimuth_deg,
+            "elevation_deg": final_item.result.elevation_deg,
+            "position": (
+                {"x": final_item.result.position.x, "y": final_item.result.position.y, "z": final_item.result.position.z}
+                if final_item.result.position is not None
+                else None
+            ),
+            "direction": (
+                {"x": final_item.result.direction.x, "y": final_item.result.direction.y, "z": final_item.result.direction.z}
+                if final_item.result.direction is not None
+                else None
+            ),
+            "residual_error2": final_item.result.residual_error2,
+            "used_pairs": final_item.result.used_pairs,
+            "rejected_pairs": final_item.result.rejected_pairs,
+            "reliable": final_item.result.reliable,
+            "message": final_item.result.message,
+        }
+    json_path.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
+    return str(csv_path), str(json_path)
 
 def _sidebar() -> dict[str, object]:
     st.sidebar.header("Входные данные")
     config_path = _path_selectbox("Конфигурация JSON", Path("configs"), ("*.json",), DEFAULT_CONFIG)
+    st.sidebar.caption(_weather_caption_for_config(config_path))
     signal_path = _path_selectbox("Сигнал CSV/WAV", Path("data/synthetic"), ("*.csv", "*.wav"), DEFAULT_SIGNAL)
     metadata_default = metadata_path_for_signal(signal_path)
     metadata_path = _path_selectbox("Метаданные JSON", Path("data/synthetic"), ("*.meta.json",), metadata_default)

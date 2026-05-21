@@ -1,0 +1,5 @@
+window_index,timestamp_s,status,confidence,azimuth_deg,elevation_deg,x_m,y_m,z_m,used_pairs,rejected_pairs,tdoa_policy,informative,message,reason,preprocess_s,gcc_s,localize_s,total_s,runtime_error
+0,0.0,ok,0.996099247893136,15.398943316503948,10.500905341552405,0.7046171519996983,0.2940699183028669,0.23546784089868916,6,0,wideband,True,,,0.020036199945025146,0.9533420000225306,0.25361470005009323,1.2270286999410018,False
+1,0.048,insufficient_signal,0.0,,,,,,0,0,manual,False,окно неинформативно: low_energy,low_energy,0.021549100056290627,0.0,0.0,0.021582300076261163,False
+2,0.096,insufficient_signal,0.0,,,,,,0,0,manual,False,окно неинформативно: low_energy,low_energy,0.01902260002680123,0.0,0.0,0.01905070000793785,False
+3,0.144,insufficient_signal,0.0,,,,,,0,0,manual,False,окно неинформативно: low_energy,low_energy,0.020662999944761395,0.0,0.0,0.020692699938081205,False

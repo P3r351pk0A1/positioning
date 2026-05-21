@@ -1,0 +1,4 @@
+window_index,timestamp_s,status,confidence,azimuth_deg,elevation_deg,x_m,y_m,z_m,used_pairs,rejected_pairs,tdoa_policy,informative,message,reason,preprocess_s,gcc_s,localize_s,total_s,runtime_error
+0,0.0,insufficient_signal,0.0,,,,,,0,0,manual,False,окно неинформативно: low_energy,low_energy,0.011446499964222312,0.0,0.0,0.011484100017696619,False
+1,0.384,low_confidence,0.0,165.931063551069,0.0,-0.30044127772397966,0.20035312669237237,0.0,5,1,wideband,True,transitivity errors: 4; rejected pairs: 1; confidence below reliable threshold: 0.000,,0.01301569992210716,0.19425489997956902,0.24799579998943955,0.45530079992022365,False
+2,0.768,insufficient_signal,0.0,,,,,,0,0,manual,False,окно неинформативно: low_energy,low_energy,0.13456509995739907,0.0,0.0,0.1346033998997882,False

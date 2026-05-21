@@ -1,0 +1,8 @@
+window_index,timestamp_s,status,confidence,azimuth_deg,elevation_deg,x_m,y_m,z_m,used_pairs,rejected_pairs,tdoa_policy,informative,message,reason,preprocess_s,gcc_s,localize_s,total_s,runtime_error
+0,0.0,ok,0.9070358249975868,24.20506933929617,14.085872213984729,0.6965814747466633,0.41313020976475257,0.2916343413181619,6,0,wideband,True,,,0.024008600041270256,0.9747692999662831,0.3560745998984203,1.3548894000705332,False
+1,0.048,insufficient_signal,0.0,,,,,,0,0,manual,False,окно неинформативно: low_interchannel_correlation,low_interchannel_correlation,0.028120400034822524,0.0,0.0,0.028153899940662086,False
+2,0.096,insufficient_signal,0.0,,,,,,0,0,manual,False,окно неинформативно: low_interchannel_correlation,low_interchannel_correlation,0.01965939998626709,0.0,0.0,0.019684000057168305,False
+3,0.144,insufficient_signal,0.0,,,,,,0,0,manual,False,окно неинформативно: low_interchannel_correlation,low_interchannel_correlation,0.01991709996946156,0.0,0.0,0.01994100003503263,False
+4,0.192,insufficient_signal,0.0,,,,,,0,0,manual,False,окно неинформативно: low_interchannel_correlation,low_interchannel_correlation,0.018593000015243888,0.0,0.0,0.018619699985720217,False
+5,0.24,insufficient_signal,0.0,,,,,,0,0,manual,False,окно неинформативно: low_interchannel_correlation,low_interchannel_correlation,0.018554900074377656,0.0,0.0,0.018580300034955144,False
+6,0.288,insufficient_signal,0.0,,,,,,0,0,manual,False,окно неинформативно: low_interchannel_correlation,low_interchannel_correlation,0.019847100018523633,0.0,0.0,0.019871800090186298,False

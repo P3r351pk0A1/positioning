@@ -1,0 +1,52 @@
+{
+  "run_id": "20260521_101100_088048",
+  "saved_at_local": "2026-05-21T10:11:00",
+  "streamlit_options": {
+    "config_path": "configs\\fast_direction.json",
+    "signal_path": "data\\synthetic\\side_looking_good_trajectory.csv",
+    "metadata_path": "data\\synthetic\\side_looking_good_trajectory.csv.meta.json",
+    "mode": "direction",
+    "window_selection": "trajectory",
+    "window_size_samples": 12288,
+    "interpolation": 16,
+    "subbands": 1,
+    "tdoa_policy": "auto",
+    "min_quality": 0.2,
+    "min_confidence": 0.0
+  },
+  "summary": {
+    "windows_total": 3,
+    "windows_displayed": 0,
+    "windows_ok": 0,
+    "windows_informative": 1
+  },
+  "environment": {
+    "temperature_c": 20.0,
+    "humidity_percent": 0.0,
+    "sound_speed_m_s": 343.42
+  },
+  "audio": {
+    "sample_rate": 24000,
+    "window_size": 12288,
+    "overlap": 0.25,
+    "frequency_band": [
+      100.0,
+      4500.0
+    ]
+  },
+  "final_result": {
+    "timestamp_s": 0.768,
+    "status": "insufficient_signal",
+    "mode": "direction",
+    "confidence": 0.0,
+    "azimuth_deg": null,
+    "elevation_deg": null,
+    "position": null,
+    "direction": null,
+    "residual_error2": null,
+    "used_pairs": 0,
+    "rejected_pairs": 0,
+    "reliable": false,
+    "message": "окно неинформативно: low_energy"
+  }
+}

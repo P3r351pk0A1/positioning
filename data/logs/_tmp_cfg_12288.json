@@ -24,12 +24,12 @@
     ]
   },
   "audio": {
-    "sample_rate": 192000,
-    "window_size": 8192,
+    "sample_rate": 48000,
+    "window_size": 12288,
     "overlap": 0.5,
     "frequency_band": [
-      100.0,
-      20000.0
+      40.0,
+      5000.0
     ]
   },
   "environment": {
@@ -37,6 +37,6 @@
     "humidity_percent": 0.0
   },
   "localization": {
-    "mode": "position"
+    "mode": "direction"
   }
 }

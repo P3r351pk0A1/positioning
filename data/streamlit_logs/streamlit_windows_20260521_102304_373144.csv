@@ -1,0 +1,3 @@
+window_index,timestamp_s,status,confidence,azimuth_deg,elevation_deg,x_m,y_m,z_m,used_pairs,rejected_pairs,tdoa_policy,informative,message,reason,preprocess_s,gcc_s,localize_s,total_s,runtime_error
+0,0.0,ok,0.9889047960004212,20.295026230179435,11.255653484610512,0.6975328921141875,0.3579564164369198,0.24800794450920488,6,0,wideband,True,near-field bearing,,0.020651699975132942,0.9784251999808475,0.26757730008102953,1.2666861999314278,False
+1,0.048,insufficient_signal,0.0,,,,,,0,0,manual,False,окно неинформативно: low_energy,low_energy,0.02194089989643544,0.0,0.0,0.021971099893562496,False

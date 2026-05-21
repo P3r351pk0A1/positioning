@@ -1,0 +1,56 @@
+{
+  "run_id": "20260521_101154_228095",
+  "saved_at_local": "2026-05-21T10:11:54",
+  "streamlit_options": {
+    "config_path": "configs\\fast_direction.json",
+    "signal_path": "data\\synthetic\\real_rotor_reference_trajectory.wav",
+    "metadata_path": "data\\synthetic\\real_rotor_reference_trajectory.wav.meta.json",
+    "mode": "direction",
+    "window_selection": "trajectory",
+    "window_size_samples": 12288,
+    "interpolation": 16,
+    "subbands": 1,
+    "tdoa_policy": "auto",
+    "min_quality": 0.2,
+    "min_confidence": 0.0
+  },
+  "summary": {
+    "windows_total": 60,
+    "windows_displayed": 22,
+    "windows_ok": 22,
+    "windows_informative": 26
+  },
+  "environment": {
+    "temperature_c": 20.0,
+    "humidity_percent": 0.0,
+    "sound_speed_m_s": 343.42
+  },
+  "audio": {
+    "sample_rate": 24000,
+    "window_size": 12288,
+    "overlap": 0.25,
+    "frequency_band": [
+      100.0,
+      4500.0
+    ]
+  },
+  "final_result": {
+    "timestamp_s": 5.856,
+    "status": "ok",
+    "mode": "direction",
+    "confidence": 0.953099140875811,
+    "azimuth_deg": 8.363177715149236,
+    "elevation_deg": 50.36355765137496,
+    "position": null,
+    "direction": {
+      "x": 0.6311303679861121,
+      "y": 0.09278281047950812,
+      "z": 0.7701076604509518
+    },
+    "residual_error2": 1.1878329167569916e-05,
+    "used_pairs": 6,
+    "rejected_pairs": 0,
+    "reliable": true,
+    "message": ""
+  }
+}
